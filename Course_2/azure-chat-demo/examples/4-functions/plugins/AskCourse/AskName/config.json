@@ -1,0 +1,22 @@
+{
+    "schema": 1,
+    "type": "completion",
+    "description": "Name suitable course.",
+    "completion": {
+      "max_tokens": 200,
+      "temperature": 0.5,
+      "top_p": 0.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    },
+    "input": {
+      "parameters": [
+        {
+          "name": "input",
+          "description": "The name of course to suggest possible course for skills on Coursera.",
+          "defaultValue": ""
+        }
+      ]
+    }
+  }
+  

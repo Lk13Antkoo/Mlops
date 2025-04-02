@@ -1,0 +1,14 @@
+resources:
+  cloud: aws
+  region:
+    eu-north-1
+  ports: 
+    - 8080
+
+envs:
+  MODEL_ID: anthropic.claude-v2:1
+
+run: |
+  docker run --gpus all --shm-size 1g -p 8080:80 -v ~/data:/data \
+    ghcr.io/predibase/lorax:main \
+    --model-id $MODEL_ID

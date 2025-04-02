@@ -1,0 +1,29 @@
+{
+    "TableDescription": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "customer_id",
+                "AttributeType": "N"
+            }
+        ],
+        "TableName": "customers",
+        "KeySchema": [
+            {
+                "AttributeName": "customer_id",
+                "KeyType": "HASH"
+            }
+        ],
+        "TableStatus": "CREATING",
+        "CreationDateTime": "2025-03-15T09:51:18.029000+01:00",
+        "ProvisionedThroughput": {
+            "NumberOfDecreasesToday": 0,
+            "ReadCapacityUnits": 5,
+            "WriteCapacityUnits": 5
+        },
+        "TableSizeBytes": 0,
+        "ItemCount": 0,
+        "TableArn": "arn:aws:dynamodb:eu-central-1:396608802461:table/customers",
+        "TableId": "c84d2678-0ea2-445c-bf0a-8c3769136b1a",
+        "DeletionProtectionEnabled": false
+    }
+}

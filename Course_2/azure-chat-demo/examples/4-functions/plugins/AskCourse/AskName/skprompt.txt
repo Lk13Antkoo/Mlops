@@ -1,0 +1,2 @@
+Generate 3 potential courses on Coursera for purpose skills.
+Skills:{{$input}}

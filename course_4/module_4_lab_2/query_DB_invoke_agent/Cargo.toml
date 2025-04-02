@@ -1,0 +1,17 @@
+[package]
+name = "query_DB_invoke_agent"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aws-sdk-dynamodb = "1.6.0"   # or the latest available version
+aws-config = "1.6.0"         # update to a compatible 1.x version
+aws-sdk-bedrock = "1.78.0"  # Add this if available for your service
+lambda_runtime = "0.5.1"     # adjust if necessary
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1", features = ["full"] }
+regex = "1"
+tracing = "0.1"           # add this dependency
+tracing-subscriber = "0.3"  # optional, for initializing a subscriber
+aws-sdk-bedrockruntime = "1.40.0"
